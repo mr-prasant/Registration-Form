@@ -147,5 +147,6 @@ function saveData() {
   window.localStorage.setItem("registration", container.innerHTML);
 }
 
+saveData();
 container.innerHTML = window.localStorage.getItem("registration");
 getID();
