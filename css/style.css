@@ -176,7 +176,7 @@ nav {
     font-size: var(--font-large-1);
     font-family: var(--font-style-2);
     padding: 1rem 0;
-    color: var(--green);
+    color: #333333;
 }
 
 .container2 .title::before {
