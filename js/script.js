@@ -148,5 +148,9 @@ function saveData() {
 }
 
 saveData();
+let content = window.localStorage.getItem("registration");
+if (content+"" == "") {
+  container.innerHTML = '<div class="title">Registered Student List</div>';
+}
 container.innerHTML = window.localStorage.getItem("registration");
 getID();
